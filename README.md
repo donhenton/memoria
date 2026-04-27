@@ -1,6 +1,6 @@
 # Atelier Memoria
 
-A spaced-repetition flashcard app for memorizing facial features and their locations on the face. Built as a single self-contained HTML file — no build step, no dependencies, no install.
+A spaced-repetition flashcard app for memorizing facial features and their locations on the face. Built as a single self-contained HTML file — no build step, no dependencies, no install. Coded By Claude
 
 ## Location URL
 https://donhenton.github.io/memoria/
