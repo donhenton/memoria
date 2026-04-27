@@ -2,6 +2,9 @@
 
 A spaced-repetition flashcard app for memorizing facial features and their locations on the face. Built as a single self-contained HTML file — no build step, no dependencies, no install.
 
+## Location URL
+https://donhenton.github.io/memoria/
+
 ## What it does
 
 35 cards covering face anatomy (forehead, nose, mouth, ear, neck landmarks). Each session alternates between two directions:
