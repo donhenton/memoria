@@ -388,8 +388,11 @@ function schedule(card, quality) {
 }
 
 function fmtNext(ts) {
-  const days = Math.round((ts - Date.now()) / DAY);
-  if (days <= 0) return "now";
+  const ms = ts - Date.now();
+  if (ms <= 0) return "now";
+  const hours = ms / (60 * 60 * 1000);
+  if (hours < 24) return Math.ceil(hours) + "h";
+  const days = Math.round(hours / 24);
   if (days === 1) return "1d";
   if (days < 30) return days + "d";
   return Math.round(days / 30) + "mo";
